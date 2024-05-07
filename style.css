@@ -1,0 +1,79 @@
+*{
+margin: 0px;
+padding: 0px;
+
+
+}
+body {
+    background-image: url("https://c8.alamy.com/comp/2C7BF9T/eid-al-adha-mubarak-the-celebration-of-muslim-community-festival-background-design-with-goat-crescent-and-lanternsvector-illustration-2C7BF9T.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding-top: 80px;
+
+}
+
+.box {
+    height: 180px;
+    min-width: 180px;
+    padding: 10px;
+    background-color: rgb(96 10 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    flex-direction: column;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    text-shadow: 6px 6px blue;
+    margin-top: 70px;
+    font-family: cursive;
+    color: black;
+    font-weight: bolder;
+}
+
+.cards {
+    height: 180px;
+    width: 180px;
+    background-color: rgb(96 10 14);
+    ;
+    margin-left: 100px;
+    margin-top: 60px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    color: white;
+}
+
+.card-update {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.update {
+    padding-bottom: 6px;
+    font-weight: bold;
+    text-align: center;
+
+}
